@@ -2,7 +2,19 @@
 
 A modern Flutter-based placement portal application for Don Bosco Institute of Technology, designed to streamline the placement process and connect students with potential employers.
 
-![DBIT Placement Portal](placement_portal/assets/images/app_preview.png)
+## 📱 App Screenshots
+
+<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;">
+  <img src="placement_portal/assets/images/app_preview.png 01.png" alt="Screenshot 1" width="200"/>
+  <img src="placement_portal/assets/images/app_preview.png 02.png" alt="Screenshot 2" width="200"/>
+  <img src="placement_portal/assets/images/app_preview.png 03.png" alt="Screenshot 3" width="200"/>
+  <img src="placement_portal/assets/images/app_preview.png 04.png" alt="Screenshot 4" width="200"/>
+  <img src="placement_portal/assets/images/app_preview.png 05.png" alt="Screenshot 5" width="200"/>
+  <img src="placement_portal/assets/images/app_preview.png 06.png" alt="Screenshot 6" width="200"/>
+  <img src="placement_portal/assets/images/app_preview.png 07.png" alt="Screenshot 7" width="200"/>
+  <img src="placement_portal/assets/images/app_preview.png 08.png" alt="Screenshot 8" width="200"/>
+  <img src="placement_portal/assets/images/app_preview.png 09.png" alt="Screenshot 9" width="200"/>
+</div>
 
 ## 🚀 Features
 
