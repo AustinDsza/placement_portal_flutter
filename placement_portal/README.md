@@ -1,11 +1,13 @@
 # DBIT Placement Portal
 
-A Flutter application designed to streamline the placement process for students at Don Bosco Institute of Technology. This portal connects students with potential employers, provides information about upcoming placement drives, and allows students to apply for jobs directly through the app.
+A modern Flutter-based placement portal application for Don Bosco Institute of Technology, designed to streamline the placement process and connect students with potential employers.
 
-## Features
+![DBIT Placement Portal](assets/images/app_preview.png)
+
+## 🚀 Features
 
 ### Student Features
-- **User Authentication**: Secure login and registration system
+- **Secure Authentication**: Email/password based login system
 - **Profile Management**: Create and update student profiles with academic and personal information
 - **Job Applications**: Apply for jobs directly through the app
 - **Placement Statistics**: View placement statistics and trends
@@ -18,22 +20,25 @@ A Flutter application designed to streamline the placement process for students 
 - **Analytics Dashboard**: Track placement statistics and generate reports
 - **Announcement Management**: Post important announcements for students
 
-## Tech Stack
+## 🛠️ Tech Stack
 
 - **Frontend**: Flutter (Dart)
-- **Backend**: Firebase (Authentication, Firestore, Storage)
+- **Backend**: Firebase
+  - Authentication
+  - Firestore Database
+  - Cloud Storage
 - **State Management**: Provider/setState
 - **Design Pattern**: MVVM (Model-View-ViewModel)
 
-## Getting Started
+## 📋 Prerequisites
 
-### Prerequisites
+Before you begin, ensure you have the following installed:
 - Flutter SDK (2.0 or higher)
 - Dart SDK (2.12 or higher)
 - Android Studio / VS Code
 - Firebase account (for backend services)
 
-### Installation
+## 🔧 Installation
 
 1. Clone the repository
 ```bash
@@ -42,7 +47,7 @@ git clone https://github.com/AustinDsza/placement_portal_flutter
 
 2. Navigate to the project directory
 ```bash
-cd dbit-placement-portal
+cd placement_portal
 ```
 
 3. Install dependencies
@@ -55,19 +60,19 @@ flutter pub get
 flutter run
 ```
 
-### Firebase Setup
+## 🔥 Firebase Setup
 
 1. Create a new Firebase project at [Firebase Console](https://console.firebase.google.com/)
 2. Add an Android app to your Firebase project
-   - Package name: `com.example.placement_portal` (or your custom package name)
+   - Package name: `com.example.placement_portal`
    - Download the `google-services.json` file and place it in the `android/app` directory
 3. Add an iOS app to your Firebase project (if needed)
-   - Bundle ID: `com.example.placementPortal` (or your custom bundle ID)
+   - Bundle ID: `com.example.placementPortal`
    - Download the `GoogleService-Info.plist` file and place it in the `ios/Runner` directory
 4. Enable Authentication (Email/Password)
 5. Create Firestore Database with appropriate security rules
 
-## Project Structure
+## 📁 Project Structure
 
 ```
 lib/
@@ -83,34 +88,71 @@ lib/
 │   ├── company_list.dart      # List of companies
 │   ├── placement_statistics.dart # Placement statistics
 │   └── about_us.dart          # About the institution
-├── models/                    # Data models (to be implemented)
-├── services/                  # Firebase and other services (to be implemented)
-└── widgets/                   # Reusable UI components (to be implemented)
+├── models/                    # Data models
+├── services/                  # Firebase and other services
+└── widgets/                   # Reusable UI components
 ```
 
-## Key Functionalities
+## 🎯 Key Functionalities
 
-1. **Login & Registration**: Users can create accounts and log in securely
-2. **Home Screen**: Displays upcoming placement drives with "Apply Now" functionality
-3. **Job Application**: Students can apply for jobs by filling out a detailed application form
-4. **Profile Management**: Students can create and update their academic and personal profiles
-5. **Placement Statistics**: Visual representation of placement data and trends
+1. **User Authentication**
+   - Secure login and registration
+   - Password reset functionality
+   - Session management
 
-## Future Enhancements
+2. **Student Dashboard**
+   - View upcoming placement drives
+   - Apply for jobs
+   - Track application status
+   - View placement statistics
 
-- **Real-time Notifications**: Push notifications for new placement drives and updates
-- **Chat Feature**: Direct communication between students and placement officers
-- **Resume Builder**: Built-in tool to create and update resumes
-- **Interview Scheduler**: Schedule and manage interview slots
-- **Mock Tests**: Practice tests for aptitude and technical skills
-- **Feedback System**: Collect and analyze feedback from students about the placement process
+3. **Profile Management**
+   - Academic details
+   - Personal information
+   - Skills and achievements
+   - Resume upload
 
-## Flutter Resources
+4. **Company Information**
+   - Company profiles
+   - Job descriptions
+   - Application deadlines
+   - Selection criteria
 
-For help getting started with Flutter development:
-- [Flutter Documentation](https://docs.flutter.dev/)
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🔮 Future Enhancements
+
+- [ ] Real-time Notifications
+- [ ] Chat Feature
+- [ ] Resume Builder
+- [ ] Interview Scheduler
+- [ ] Mock Tests
+- [ ] Feedback System
+- [ ] Admin Dashboard
+- [ ] Analytics Reports
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 👥 Team
+
+- [Austin Dsza](https://github.com/AustinDsza) - Lead Developer
+
+## 🙏 Acknowledgments
+
+- Flutter Team
+- Firebase Team
+- DBIT Placement Cell
+- All contributors and supporters
 
 ---
 
